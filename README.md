@@ -83,7 +83,8 @@ FedEx-Logistics-Performance-Analysis
 
 ## 1. Correlation Heatmap
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](correlation_heatmap.png)
+
 
 ### Key Insight
 
@@ -98,7 +99,8 @@ This indicates that shipment insurance costs rise proportionally with shipment v
 
 ## 2. Shipment Mode vs Delivery Delay
 
-![Shipment Delay](images/shipment_mode_vs_delay.png)
+![Shipment Delay](shipment_mode_vs_delay.png)
+
 
 ### Key Insight
 
@@ -110,7 +112,7 @@ This analysis helps identify transportation methods that offer more reliable del
 
 ## 3. Global Shipment Value Distribution
 
-![Global Shipment Map](images/global_shipment_map.png)
+![Global Shipment Map](global_shipment_map.png)
 
 ### Key Insight
 
