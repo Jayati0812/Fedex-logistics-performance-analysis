@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project performs an in-depth Exploratory Data Analysis (EDA) on the FedEx Logistics Performance dataset to uncover patterns in pharmaceutical supply chain operations. The analysis focuses on shipment performance, freight costs, delivery delays, transportation modes, product distribution, and global shipment trends.
+This project analyzes over 10,000 pharmaceutical shipment records from the FedEx Logistics (SCMS) dataset to identify patterns in freight costs, delivery performance, shipment modes, and global supply chain operations. The analysis aims to uncover actionable insights that can improve logistics efficiency, reduce transportation costs, and support data-driven decision-making.
 
 The goal is to transform raw logistics data into actionable business insights that can help optimize transportation costs, improve delivery efficiency, and strengthen supply chain decision-making.
 
@@ -14,7 +14,7 @@ The goal is to transform raw logistics data into actionable business insights th
 
 * **Freight costs increase with shipment weight**, indicating a positive relationship between transportation expenses and shipment size.
 * **Line Item Value and Insurance Cost show a very strong positive correlation (0.958)**, suggesting that higher-value shipments require significantly higher insurance coverage.
-* **Delivery performance varies across shipment modes**, with certain transportation methods experiencing higher delays and greater variability.
+* **Delivery delays vary significantly across shipment modes**, highlighting opportunities to improve transportation planning and service reliability.
 * **A small number of countries contribute a significant share of total shipment value**, highlighting key markets within the pharmaceutical supply chain.
 * **Shipment quantity strongly influences shipment value**, making volume planning a critical factor in logistics cost management.
 
@@ -24,27 +24,30 @@ The goal is to transform raw logistics data into actionable business insights th
 
 ### Dataset
 
-**FedEx Logistics Performance Analysis Dataset (SCMS Delivery History Dataset)**
+**SCMS Delivery History Dataset**
 
 ### Source
 
-The dataset contains historical pharmaceutical shipment records including:
-
-* Shipment details
-* Vendor information
-* Product groups
-* Delivery dates
-* Shipment modes
-* Freight costs
-* Insurance costs
-* Product quantities
-* Country information
-* Delivery performance metrics
+The dataset contains historical pharmaceutical shipment records from the Supply Chain Management System (SCMS).
 
 ### Dataset Size
 
-* **Rows:** 10,324
-* **Columns:** 36
+- Rows: 10,324
+- Columns: 36
+
+### Key Features
+
+- Shipment Details
+- Vendors
+- Product Groups
+- Shipment Modes
+- Delivery Dates
+- Freight Cost (USD)
+- Insurance Cost (USD)
+- Shipment Quantity & Value
+- Destination Countries
+- Delivery Performance
+
 
 ### Business Objective
 
@@ -63,17 +66,15 @@ Analyze logistics operations to identify opportunities for:
 ```text
 FedEx-Logistics-Performance-Analysis
 │
-├── notebooks/
-│   └── FedEx_Logistics_Analysis.ipynb
-│
 ├── images/
 │   ├── correlation_heatmap.png
 │   ├── shipment_mode_vs_delay.png
-│   ├── global_shipment_map.png
+│   └── global_shipment_map.png
 │
-├── README.md
-│
-└── requirements.txt
+├── SCMS_Delivery_History_Dataset.csv
+├── FedEx_Logistics_Performance_Analysis.ipynb
+├── requirements.txt
+└── README.md
 ```
 
 ---
@@ -243,8 +244,5 @@ The insights generated from this analysis can help organizations improve operati
 
 B.Tech (Electronics & Communication Engineering)
 
-Aspiring Data Analyst
+Aspiring Data Analyst | Python | SQL | Power BI | Tableau | Excel
 
-### Skills
-
-Python • SQL • Excel • Power BI • Tableau • Pandas • NumPy • Data Visualization • Exploratory Data Analysis
