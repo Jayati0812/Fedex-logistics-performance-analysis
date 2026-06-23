@@ -248,3 +248,7 @@ B.Tech (Electronics & Communication Engineering)
 
 Aspiring Data Analyst | Python | SQL | Power BI | Tableau | Excel
 
+## Connect with Me
+
+LinkedIn: (https://www.linkedin.com/in/jayati-nilekar-123937294/)
+
